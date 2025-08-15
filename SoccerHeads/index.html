@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<title>Soccer Heads Unblocked - ubg235 Famobi</title>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" id="viewport" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<style>
+		html,body { margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: #475829}
+		#openfl-content { background: #475829; width: 100%; height: 100%; }
+	</style>
+<script>
+		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, false);
+		// if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
+		// 	var meta = document.querySelector("meta[name=viewport]");
+		// 	meta.setAttribute ('content', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
+		// }
+
+	    // Package-ID
+	    window.famobi_gameID = "soccer-heads";
+	    window.famobi_gameJS = ['js/all.js',
+	        function(){
+	            lime.embed ("openfl-content", 800, 500, "475829");
+	        }
+	    ];
+
+	    (function (document, url, fgJS, firstJS) {
+	            fgJS = document.createElement('script');
+	            firstJS = document.getElementsByTagName('script')[0];
+	            fgJS.src = url + encodeURIComponent(document.location.href);
+	            firstJS.parentNode.insertBefore(fgJS, firstJS);
+	    })(document, 'v1.js?e=');
+	</script>
+</meta></head>
+<body>
+<div id="openfl-content"></div>
+<script>function loadGoogleAnalytics(id) {
+    // Google tag (gtag.js)
+    var firstScript= document.getElementsByTagName("script")[0];
+    newScript= document.createElement("script");
+    newScript.async= "";
+    newScript.src= "https://www.googletagmanager.com/gtag/js?id="+ id;
+    firstScript.parentNode.insertBefore(newScript, firstScript);
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', id);
+}
+
+window.addEventListener("load", function() {
+    if (navigator.webdriver) {
+      console.log('Bot Browser');
+      loadGoogleAnalytics("G-LE1ZGTPC77");
+
+    } else {
+      console.log('Human Browser');
+      loadGoogleAnalytics("G-E7D3EVY6HR");
+    }
+});
+</script>
+</body>
+</html>
